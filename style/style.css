@@ -1,0 +1,235 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    max-width: 1440px;
+     background-color: #f0f4f5;
+     overflow: hidden;
+     margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+img[alt= "logo"]{
+    height:50px;
+    margin-left: 60px;
+}
+/* hero section designing */
+
+.hero-section{
+    display: flex;
+    height: 85vh;
+}
+
+
+.hero-section section {
+    width: 50%;
+}
+
+.hero-section h1{
+    font-size: 70px;
+}
+
+.left-section{
+    margin: 5%;
+    position: relative;
+}
+
+.topAngle{
+    height: 25px;
+    width: 25px;
+}
+
+.left-section p {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomAngle{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right:30px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    right: 5%;
+    top:-100px
+
+}
+
+.mouse{
+    position: absolute;
+    right:-10px;
+    margin-top: 20px;
+}
+
+
+main section  button{
+    
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #20BC7E;
+    font-size:20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    margin-left: 20px;
+}
+
+.greenBox{
+      height: 70%;
+    position: absolute;
+    right: 0px;
+    z-index: -2;
+    bottom: 10px;
+}
+.yellowBox{
+    height: 60%;
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+
+    
+}
+
+.doctor{height: 80%;
+    position: absolute;
+    right:0px;
+    bottom: 0;
+
+}
+
+
+
+/* designing about page */
+
+.about-hero-section{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-hero-section h1{
+    margin: 25px;
+    font-size: 30px;  
+    color: #20BC7E;  
+}
+
+.about-hero-section p{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px;
+
+}
+
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.achievementCard{
+    height: 100px;
+    width: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span{
+   display: block;
+   color: #20BC7E;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+
+/* conatct form */
+.conatact-hero-section{
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    
+    
+}
+
+.from-container{
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.from-container h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+ 
+
+.from-container div input {
+    border: transparent;
+}
+
+.from-container div textarea {
+    border: transparent;
+}
+
+label{
+    padding: 10px;
+}
+input{
+    padding: 10px;
+}
+textarea{
+    padding: 10px;
+}
+
+button{
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #20BC7E;
+    border: 0;
+    color: #ffffff;
+    border-radius: 15px;
+}
